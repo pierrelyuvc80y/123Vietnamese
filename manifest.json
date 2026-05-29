@@ -1,0 +1,21 @@
+{
+  "name": "123 Vietnamese",
+  "short_name": "123VN",
+  "description": "Learn Vietnamese for Beginners",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#f0c04a",
+  "icons": [
+    {
+      "src": "icon-192.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "icon-512.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

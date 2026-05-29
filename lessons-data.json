@@ -1,0 +1,788 @@
+{
+  "1": {
+    "title": "Tên tôi là Peter",
+    "title_en": "My name is Peter",
+    "dialogue": "Chào chị.\nChào anh.\nXin lỗi, anh tên là gì?\nTôi tên là Peter.\nChị tên là gì?\nTên tôi là Yumi.\nChị là người nước nào?\nTôi là người Nhật Bản.\nAnh là người nước nào?\nTôi là người Anh.\nRất vui được gặp chị.\nRất vui được gặp anh.",
+    "vocabulary": [
+      {
+        "vn": "chào",
+        "en": "hello, hi"
+      },
+      {
+        "vn": "là",
+        "en": "to be"
+      },
+      {
+        "vn": "xin lỗi",
+        "en": "excuse me, sorry"
+      },
+      {
+        "vn": "rất",
+        "en": "very"
+      },
+      {
+        "vn": "tên",
+        "en": "name"
+      },
+      {
+        "vn": "vui",
+        "en": "glad"
+      },
+      {
+        "vn": "người",
+        "en": "person"
+      },
+      {
+        "vn": "gặp",
+        "en": "to meet"
+      },
+      {
+        "vn": "nước",
+        "en": "country"
+      },
+      {
+        "vn": "nào",
+        "en": "which"
+      }
+    ],
+    "grammar": [
+      "Chào - Hello (greetings with pronouns)",
+      "Personal pronouns (tôi, anh, chị, em, bạn)",
+      "Asking for name: Tên ... là gì?",
+      "Asking for nationality: ... là người nước nào?"
+    ]
+  },
+  "2": {
+    "title": "Tôi là giáo viên",
+    "title_en": "I am a teacher",
+    "dialogue": "Chào chị. Tôi tên là Kim.\nChào anh. Rất vui được gặp anh. Tôi tên là Thu.\nRất vui được gặp chị.\nAnh là người Hàn Quốc phải không?\nVâng. Tôi là người Hàn Quốc.\nChị làm nghề gì?\nTôi là giáo viên. Còn anh?\nTôi là bác sĩ.\nChị làm việc ở đâu?\nTôi dạy ở trung tâm 123VIETNAMESE.\nThế à? \nTôi làm việc ở bệnh viện Việt Pháp.",
+    "vocabulary": [
+      {
+        "vn": "giáo viên",
+        "en": "teacher"
+      },
+      {
+        "vn": "vâng",
+        "en": "yes"
+      },
+      {
+        "vn": "dạy",
+        "en": "to teach"
+      },
+      {
+        "vn": "bác sĩ",
+        "en": "doctor"
+      },
+      {
+        "vn": "Hàn Quốc",
+        "en": "Korea"
+      },
+      {
+        "vn": "làm việc",
+        "en": "to work"
+      },
+      {
+        "vn": "bệnh viện",
+        "en": "hospital"
+      },
+      {
+        "vn": "trung tâm",
+        "en": "center"
+      }
+    ],
+    "grammar": [
+      "Asking for profession: ... làm nghề gì?",
+      "Verb 'là' (to be)",
+      "Structure: ... phải không?",
+      "Personal pronouns in plural form"
+    ]
+  },
+  "3": {
+    "title": "Anh bao nhiêu tuổi?",
+    "title_en": "How old are you?",
+    "dialogue": "Lâu lắm không gặp anh. Anh có khỏe không?\nCảm ơn chị. Tôi khỏe. Còn chị?\nCảm ơn anh. Tôi bình thường.\nAnh đi đâu đấy?\nTôi đi làm.\nBây giờ anh làm việc ở đâu?\nTôi làm ở ngân hàng ANZ.\nCòn chị, chị dạy ở trường đại học Quốc gia phải không?\nVâng, tôi làm ở trường đại học Quốc gia Hà Nội.\nĐây là con trai chị à? Cháu bao nhiêu tuổi?\nVâng, đây là con trai tôi. Cháu 12 tuổi.",
+    "vocabulary": [
+      {
+        "vn": "lâu",
+        "en": "long time"
+      },
+      {
+        "vn": "đang",
+        "en": "tense marker"
+      },
+      {
+        "vn": "lắm",
+        "en": "very"
+      },
+      {
+        "vn": "ở",
+        "en": "in, at"
+      },
+      {
+        "vn": "cảm ơn",
+        "en": "thank you"
+      },
+      {
+        "vn": "đi làm",
+        "en": "to go to work"
+      },
+      {
+        "vn": "khỏe",
+        "en": "fine"
+      },
+      {
+        "vn": "trường đại học",
+        "en": "university"
+      },
+      {
+        "vn": "bình thường",
+        "en": "normal"
+      },
+      {
+        "vn": "bây giờ",
+        "en": "now"
+      },
+      {
+        "vn": "đi",
+        "en": "to go"
+      },
+      {
+        "vn": "ngân hàng",
+        "en": "bank"
+      },
+      {
+        "vn": "đâu",
+        "en": "where"
+      },
+      {
+        "vn": "con trai",
+        "en": "son"
+      }
+    ],
+    "grammar": [
+      "Asking for age: ... bao nhiêu tuổi?",
+      "Structure: Có ... không?",
+      "Tense markers: đã, đang, sẽ",
+      "Difference between 'còn' and 'và'",
+      "Verb 'đi' (to go)"
+    ]
+  },
+  "4": {
+    "title": "Nhà của anh rất đẹp!",
+    "title_en": "Your house is very beautiful!",
+    "dialogue": "Chào anh. Dạo này anh có khỏe không?\nTôi khỏe. Cảm ơn anh.\nNgày mai, anh có bận không?\nKhông, ngày mai tôi không bận. Có chuyện gì à?\nÀ, tôi muốn mời anh đến nhà mới của tôi.\nCảm ơn anh. Mai tôi sẽ đến.\n........\nNhà này của anh rất đẹp và rộng.\nGiới thiệu với anh, đây là phòng khách, kia là phòng ngủ.\nAnh có bức tranh đẹp quá!\nVâng! Đó là bức tranh tôi mua ở Thái Lan.",
+    "vocabulary": [
+      {
+        "vn": "ngày mai",
+        "en": "tomorrow"
+      },
+      {
+        "vn": "mới",
+        "en": "new"
+      },
+      {
+        "vn": "bận",
+        "en": "busy"
+      },
+      {
+        "vn": "đến",
+        "en": "to come, to go"
+      },
+      {
+        "vn": "muốn",
+        "en": "to want"
+      },
+      {
+        "vn": "nhà",
+        "en": "house, home"
+      },
+      {
+        "vn": "mời",
+        "en": "to invite"
+      },
+      {
+        "vn": "rộng",
+        "en": "large"
+      },
+      {
+        "vn": "bức tranh",
+        "en": "picture"
+      },
+      {
+        "vn": "đẹp",
+        "en": "nice"
+      },
+      {
+        "vn": "mua",
+        "en": "to buy"
+      },
+      {
+        "vn": "giới thiệu",
+        "en": "to introduce"
+      }
+    ],
+    "grammar": [
+      "Demonstrative pronouns: đây, đó, kia",
+      "Demonstrative adjectives after nouns",
+      "Classifiers (cái, con, quả, quyển...)",
+      "Possession word 'của'",
+      "Order of adjectives in sentences"
+    ]
+  },
+  "5": {
+    "title": "Cái này bao nhiêu tiền?",
+    "title_en": "How much is this?",
+    "dialogue": "Anh ơi, cho tôi xem cái mũ kia.\nVâng. Của chị đây.\nMũ này có màu khác không anh?\nCó màu vàng và xanh lá cây chị ạ.\nCho tôi đi thử cái mũ màu vàng.\nMũ này bao nhiêu tiền à?\n50.000 chị ạ.\nĐắt quá! Anh giảm giá đi!\nTôi không bớt được. Giá rẻ lắm rồi.\nỜ, à, anh cho tôi mặc thử cái áo kia nhé.\nVâng.\nAnh ơi, có cỡ rộng hơn không?\nCó cỡ M đây chị.\nÁo này đúng giá 250.000 đồng.\nTôi mua mũ và áo nên anh bớt một chút nhé.\nKhông chị ạ. Tôi không bán mặc cả.\nVậy tôi lấy mũ thôi.\nCảm ơn chị!",
+    "vocabulary": [
+      {
+        "vn": "mũ",
+        "en": "hat"
+      },
+      {
+        "vn": "đắt",
+        "en": "expensive"
+      },
+      {
+        "vn": "màu",
+        "en": "color"
+      },
+      {
+        "vn": "mặc",
+        "en": "to wear"
+      },
+      {
+        "vn": "màu vàng",
+        "en": "yellow"
+      },
+      {
+        "vn": "áo",
+        "en": "shirt"
+      },
+      {
+        "vn": "màu xanh lá cây",
+        "en": "green"
+      },
+      {
+        "vn": "cỡ",
+        "en": "size"
+      },
+      {
+        "vn": "đi",
+        "en": "to wear"
+      },
+      {
+        "vn": "đúng giá",
+        "en": "fair price"
+      },
+      {
+        "vn": "thử",
+        "en": "to try"
+      },
+      {
+        "vn": "mặc cả",
+        "en": "to bargain"
+      },
+      {
+        "vn": "giảm giá",
+        "en": "to discount"
+      },
+      {
+        "vn": "bán",
+        "en": "to sell"
+      },
+      {
+        "vn": "bớt",
+        "en": "to reduce"
+      },
+      {
+        "vn": "lấy",
+        "en": "to take"
+      },
+      {
+        "vn": "rẻ",
+        "en": "cheap"
+      }
+    ],
+    "grammar": [
+      "Bao nhiêu tiền? (How much money?)",
+      "Structure: Cho tôi + verb",
+      "Structure: verb + thử",
+      "Questions about colors: ... màu gì?",
+      "Verbs with clothes (mặc, đi, đeo, ci, ...)"
+    ]
+  },
+  "6": {
+    "title": "Bây giờ là mấy giờ?",
+    "title_en": "What time is it now?",
+    "vocabulary": [
+      {
+        "vn": "bây giờ",
+        "en": "now"
+      },
+      {
+        "vn": "mấy",
+        "en": "what time"
+      },
+      {
+        "vn": "giờ",
+        "en": "hour"
+      },
+      {
+        "vn": "lúc",
+        "en": "at"
+      },
+      {
+        "vn": "giờ rưỡi",
+        "en": "30 oclock"
+      },
+      {
+        "vn": "cuộc họp",
+        "en": "meeting"
+      },
+      {
+        "vn": "họp",
+        "en": "to have a meeting"
+      },
+      {
+        "vn": "về nhà",
+        "en": "to go home"
+      },
+      {
+        "vn": "thường",
+        "en": "often"
+      },
+      {
+        "vn": "buổi tối",
+        "en": "evening"
+      },
+      {
+        "vn": "giám đốc",
+        "en": "director"
+      },
+      {
+        "vn": "kết thúc",
+        "en": "to finish"
+      },
+      {
+        "vn": "phải",
+        "en": "to have"
+      },
+      {
+        "vn": "đón",
+        "en": "to pick up"
+      }
+    ],
+    "grammar": [
+      "Asking and answering about time",
+      "Time expressions (sáng, trưa, chiều, tối, đêm)",
+      "Asking for time of action: lúc mấy giờ?",
+      "Frequency adverbs: luôn luôn, hay, thường, thỉnh thoảng...",
+      "hay vs hoặc (or)"
+    ]
+  },
+  "7": {
+    "title": "Hôm nay là ngày bao nhiêu?",
+    "title_en": "What date is today?",
+    "vocabulary": [
+      {
+        "vn": "sắp",
+        "en": "is going to, about to"
+      },
+      {
+        "vn": "tuần sau",
+        "en": "next week"
+      },
+      {
+        "vn": "sinh nhật",
+        "en": "birthday"
+      },
+      {
+        "vn": "bánh ga tô",
+        "en": "gateau"
+      },
+      {
+        "vn": "tặng",
+        "en": "to present, to give a gift"
+      },
+      {
+        "vn": "giỏi",
+        "en": "good"
+      }
+    ],
+    "grammar": [
+      "Days, months, years (ngày, tháng, năm)",
+      "Difference between 'sắp' and 'sẽ'",
+      "Bao giờ / khi nào / lúc nào - When",
+      "Time markers: hôm kia, hôm qua, hôm nay, ngày mai, ngày kia"
+    ]
+  },
+  "8": {
+    "title": "Anh có nhà riêng chưa?",
+    "title_en": "Do you have your own house yet?",
+    "vocabulary": [
+      {
+        "vn": "lâu",
+        "en": "long time"
+      },
+      {
+        "vn": "dạo này",
+        "en": "recently"
+      },
+      {
+        "vn": "vẫn",
+        "en": "still"
+      },
+      {
+        "vn": "nhà hàng",
+        "en": "restaurant"
+      },
+      {
+        "vn": "công ty",
+        "en": "company"
+      }
+    ],
+    "grammar": [
+      "Structure: ... chưa? (Have ... yet?)",
+      "Vẫn, cũng, đều (Still, also, both)",
+      "Difference between 'ở đâu' and 'ở đâu?'"
+    ]
+  },
+  "9": {
+    "title": "Khi rảnh chị thường làm gì?",
+    "title_en": "What do you usually do when free?",
+    "vocabulary": [
+      {
+        "vn": "rảnh rỗi",
+        "en": "free"
+      },
+      {
+        "vn": "cơ hội",
+        "en": "opportunity, chance"
+      },
+      {
+        "vn": "xem",
+        "en": "to watch"
+      },
+      {
+        "vn": "nghỉ việc",
+        "en": "to quit job"
+      },
+      {
+        "vn": "đặc biệt là",
+        "en": "especially"
+      },
+      {
+        "vn": "khoảng",
+        "en": "about, around"
+      },
+      {
+        "vn": "phim hành động",
+        "en": "action movie"
+      },
+      {
+        "vn": "trước khi",
+        "en": "before"
+      },
+      {
+        "vn": "hy vọng",
+        "en": "to hope"
+      },
+      {
+        "vn": "tổ chức",
+        "en": "to organize"
+      },
+      {
+        "vn": "chưa bao giờ",
+        "en": "never ever"
+      },
+      {
+        "vn": "liên hoan",
+        "en": "party"
+      }
+    ],
+    "grammar": [
+      "Conjunctions: nhưng, nên, cho nên",
+      "Structure: ... bao giờ chưa? (Have you ever...?)",
+      "Bao lâu, bao lâu rồi, bao lâu nữa, lâu chưa",
+      "Adverbs rất, quá, lắm with adjectives",
+      "Structure: chỉ ... thôi (only)"
+    ]
+  },
+  "10": {
+    "title": "Anh đi thường đường này",
+    "title_en": "You often go this way",
+    "vocabulary": [
+      {
+        "vn": "đi thẳng",
+        "en": "to go straight"
+      },
+      {
+        "vn": "tốt bụng",
+        "en": "kind, nice"
+      },
+      {
+        "vn": "đường",
+        "en": "way, road"
+      },
+      {
+        "vn": "trung tâm",
+        "en": "center"
+      },
+      {
+        "vn": "rẽ trái",
+        "en": "to turn left"
+      },
+      {
+        "vn": "gần",
+        "en": "near"
+      },
+      {
+        "vn": "bên phải",
+        "en": "on the right"
+      },
+      {
+        "vn": "chợ",
+        "en": "market"
+      },
+      {
+        "vn": "đi bộ",
+        "en": "to walk"
+      },
+      {
+        "vn": "ngã tư",
+        "en": "intersection"
+      }
+    ],
+    "grammar": [
+      "Structure: từ ... đến (from ... to)",
+      "A cách B bao xa? (How far from A to B?)",
+      "... bằng gì? (By what transportation?)",
+      "... mất bao lâu? (How long does it take?)",
+      "Khoảng, độ, chừng (approximately)"
+    ]
+  },
+  "11": {
+    "title": "Anh có thể nói tiếng Việt được không?",
+    "title_en": "Can you speak Vietnamese?",
+    "vocabulary": [
+      {
+        "vn": "có thể",
+        "en": "can"
+      },
+      {
+        "vn": "được",
+        "en": "can"
+      },
+      {
+        "vn": "nói",
+        "en": "to speak"
+      },
+      {
+        "vn": "tự",
+        "en": "oneself"
+      },
+      {
+        "vn": "học",
+        "en": "to study, to learn"
+      },
+      {
+        "vn": "vừa ... vừa",
+        "en": "both ... and"
+      }
+    ],
+    "grammar": [
+      "Ability: có thể, được, có",
+      "Structure: Tự + verb",
+      "Question for purpose: ... làm gì?",
+      "Structure: vừa A vừa B (both A and B)"
+    ]
+  },
+  "12": {
+    "title": "Quyển sách trên bàn",
+    "title_en": "The book on the table",
+    "vocabulary": [
+      {
+        "vn": "trên",
+        "en": "on, above"
+      },
+      {
+        "vn": "dưới",
+        "en": "under, below"
+      },
+      {
+        "vn": "trong",
+        "en": "in, inside"
+      },
+      {
+        "vn": "ngoài",
+        "en": "outside"
+      },
+      {
+        "vn": "giữa",
+        "en": "between, middle"
+      },
+      {
+        "vn": "cạnh",
+        "en": "next to"
+      }
+    ],
+    "grammar": [
+      "Prepositions of place (trên, dưới, trong, ngoài, giữa, cạnh...)",
+      "Structure: có ... nào không? (any...?)",
+      "Negative group: không có, đừng, cấm"
+    ]
+  },
+  "13": {
+    "title": "Cho chúng tôi xem thực đơn",
+    "title_en": "Show us the menu",
+    "vocabulary": [
+      {
+        "vn": "thực đơn",
+        "en": "menu"
+      },
+      {
+        "vn": "gọi món",
+        "en": "to order (food)"
+      },
+      {
+        "vn": "phục vụ",
+        "en": "to serve"
+      },
+      {
+        "vn": "đồ uống",
+        "en": "drinks"
+      },
+      {
+        "vn": "món ăn",
+        "en": "dish"
+      },
+      {
+        "vn": "ngon",
+        "en": "delicious"
+      }
+    ],
+    "grammar": [
+      "Ordering in restaurant/hotel",
+      "Structure: ... thêm ... nữa (more ... additional)",
+      "Nào cũng, ai cũng, gì cũng, đâu cũng (all, every)"
+    ]
+  },
+  "14": {
+    "title": "Hôm nay trời nóng và nắng",
+    "title_en": "Today is hot and sunny",
+    "vocabulary": [
+      {
+        "vn": "thời tiết",
+        "en": "weather"
+      },
+      {
+        "vn": "nóng",
+        "en": "hot"
+      },
+      {
+        "vn": "nắng",
+        "en": "sunny"
+      },
+      {
+        "vn": "mát",
+        "en": "cool"
+      },
+      {
+        "vn": "lạnh",
+        "en": "cold"
+      },
+      {
+        "vn": "mưa",
+        "en": "rain"
+      },
+      {
+        "vn": "gió",
+        "en": "wind"
+      }
+    ],
+    "grammar": [
+      "Asking about weather",
+      "Structure: Có A lẫn cả B (both A and B)",
+      "Comparisons: hơn, nhất, bằng, không bằng"
+    ]
+  },
+  "15": {
+    "title": "Cho tôi một phòng đơn",
+    "title_en": "Give me a single room",
+    "vocabulary": [
+      {
+        "vn": "phòng đơn",
+        "en": "single room"
+      },
+      {
+        "vn": "phòng đôi",
+        "en": "double room"
+      },
+      {
+        "vn": "khách sạn",
+        "en": "hotel"
+      },
+      {
+        "vn": "đặt phòng",
+        "en": "to book a room"
+      },
+      {
+        "vn": "hủy",
+        "en": "to cancel"
+      },
+      {
+        "vn": "tiện nghi",
+        "en": "convenient"
+      }
+    ],
+    "grammar": [
+      "Structure: thế nào ... cũng / thế nào cũng ...",
+      "Structure: Dù / tuy / mặc dù ... nhưng (although ... but)",
+      "Structure: ngày càng / càng ngày càng (more and more)"
+    ]
+  },
+  "16": {
+    "title": "Hôm nay trông anh có vẻ mệt",
+    "title_en": "Today you look tired",
+    "vocabulary": [
+      {
+        "vn": "mệt",
+        "en": "tired"
+      },
+      {
+        "vn": "bị",
+        "en": "to suffer from"
+      },
+      {
+        "vn": "được",
+        "en": "to receive"
+      },
+      {
+        "vn": "đau đầu",
+        "en": "headache"
+      },
+      {
+        "vn": "sốt",
+        "en": "fever"
+      },
+      {
+        "vn": "ho",
+        "en": "cough"
+      },
+      {
+        "vn": "khám bệnh",
+        "en": "to examine"
+      },
+      {
+        "vn": "thuốc",
+        "en": "medicine"
+      }
+    ],
+    "grammar": [
+      "Passive structure: bị, được",
+      "Asking about illness",
+      "Passive markers with verbs",
+      "Sau, sau khi, sau đó, trước, trước khi (before, after)"
+    ]
+  }
+}
