@@ -3,6 +3,7 @@
   "short_name": "123VN",
   "description": "Learn Vietnamese for Beginners",
   "start_url": "/123Vietnamese/"
+  "id": "/123Vietnamese/"
   "display": "standalone",
   "background_color": "#0a0a0f",
   "theme_color": "#f0c04a",
