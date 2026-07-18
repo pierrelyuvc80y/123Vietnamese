@@ -1232,65 +1232,77 @@ const BAO_GIO_CHUA_QUESTIONS = [
 
 // ── LESSON 9: Chỉ...thôi (only/just) ────────────────────────
 const CHI_THOI_QUESTIONS = [
+  // "chỉ...thôi" correct
   { sentence:'Tôi ___ xem phim hành động ___ , không xem thể loại khác.',
     question:'"Tôi ___ xem phim hành động ___ , không xem thể loại khác." — "I ONLY watch action films, nothing else."',
-    correct:'chỉ ... thôi', options:['chỉ ... thôi','đã ... rồi','vẫn','cũng'],
-    explanation:'"Chỉ...thôi" limits the action to one category only. "Không xem thể loại khác" confirms exclusivity.' },
+    correct:'chỉ ... thôi', options:['chỉ ... thôi','vẫn ... rồi','đã ... rồi','sắp ... rồi'],
+    explanation:'"Chỉ...thôi" = only/just, limiting to one thing. "Không xem thể loại khác" confirms exclusivity.' },
 
+  // "vẫn" correct
   { sentence:'Sau 3 năm, anh ấy ___ làm việc ở công ty đó.',
     question:'"Sau 3 năm, anh ấy ___ làm việc ở công ty đó." — "After 3 years, he STILL works at that company."',
-    correct:'vẫn', options:['chỉ','vẫn','cũng','đã'],
-    explanation:'"Vẫn" expresses continuity: the situation has not changed after a period of time.' },
+    correct:'vẫn', options:['chỉ','vẫn','cũng','sắp'],
+    explanation:'"Vẫn" = still (unchanged situation). "Sau 3 năm" signals continuity.' },
 
+  // "chỉ...thôi" correct
   { sentence:'Cuối tuần, tôi ở nhà ___ , không đi đâu cả.',
     question:'"Cuối tuần, tôi ở nhà ___ , không đi đâu cả." — "On weekends, I JUST stay home, go nowhere at all."',
-    correct:'thôi', options:['thôi','rồi','nữa','cũng'],
-    explanation:'Sentence-final "thôi" means just/only here. The second clause confirms the restriction.' },
+    correct:'thôi', options:['thôi','rồi','nữa','chứ'],
+    explanation:'"Thôi" at the end = just/only (informal). "Không đi đâu cả" confirms the limitation.' },
 
+  // "cũng" correct
   { sentence:'Chị ấy thích nghe nhạc jazz. Tôi ___ thích.',
     question:'"Chị ấy thích nghe nhạc jazz. Tôi ___ thích." — "She likes jazz. I like it TOO."',
-    correct:'cũng', options:['chỉ','vẫn','cũng','thôi'],
-    explanation:'"Cũng" means also/too when the second sentence shares the same idea.' },
+    correct:'cũng', options:['chỉ','vẫn','cũng','đã'],
+    explanation:'"Cũng" = also/too. The second sentence mirrors the first person preference.' },
 
+  // "chỉ...thôi" correct
   { sentence:'Anh ấy nói tiếng Việt ___ một chút ___ , chưa nói được nhiều.',
     question:'"Anh ấy nói tiếng Việt ___ một chút ___ , chưa nói được nhiều." — "He can speak ONLY a little Vietnamese."',
-    correct:'chỉ ... thôi', options:['chỉ ... thôi','đã ... rồi','vẫn','cũng'],
-    explanation:'"Chỉ...thôi" limits the quantity. "Chưa nói được nhiều" supports that meaning.' },
+    correct:'chỉ ... thôi', options:['chỉ ... thôi','đã ... rồi','vẫn ... rồi','sắp ... rồi'],
+    explanation:'"Chỉ...thôi" limits the quantity. "Một chút" + "chưa nói được nhiều" confirm the limitation.' },
 
+  // "đã...rồi" correct
   { sentence:'Chị ___ ăn cơm ___ , không cần nấu nữa.',
     question:'"Chị ___ ăn cơm ___ , không cần nấu nữa." — "She has ALREADY eaten, no need to cook."',
-    correct:'đã ... rồi', options:['chỉ ... thôi','đã ... rồi','vẫn','cũng'],
-    explanation:'"Đã...rồi" marks a completed action. The result is that cooking is no longer needed.' },
+    correct:'đã ... rồi', options:['chỉ ... thôi','đã ... rồi','sắp ... rồi','vẫn ... rồi'],
+    explanation:'"Đã...rồi" = already done. "Không cần nấu nữa" confirms the action is completed.' },
 
+  // "chỉ...thôi" correct
   { sentence:'Tôi ___ làm khoảng 3 tuần nữa ___ , rồi tôi nghỉ việc.',
     question:'"Tôi ___ làm khoảng 3 tuần nữa ___ , rồi tôi nghỉ việc." — "I will ONLY work for about 3 more weeks, then I quit."',
-    correct:'chỉ ... thôi', options:['chỉ ... thôi','đã ... rồi','vẫn','sắp'],
-    explanation:'"Chỉ...thôi" limits the remaining duration. "Rồi tôi nghỉ việc" shows the endpoint.' },
+    correct:'chỉ ... thôi', options:['chỉ ... thôi','đã ... rồi','vẫn ... rồi','sắp ... rồi'],
+    explanation:'"Chỉ...thôi" limits the remaining time. "Rồi tôi nghỉ việc" confirms it ends after.' },
 
+  // "sắp" correct
   { sentence:'Chị ___ nghỉ việc rồi, chỉ còn 3 tuần nữa thôi.',
     question:'"Chị ___ nghỉ việc rồi, chỉ còn 3 tuần nữa thôi." — "She is ABOUT TO quit, only 3 weeks left."',
     correct:'sắp', options:['chỉ','vẫn','sắp','cũng'],
-    explanation:'"Sắp" signals an action that is imminent, not completed yet.' },
+    explanation:'"Sắp" = about to (imminent). "Chỉ còn 3 tuần nữa thôi" confirms imminence.' },
 
+  // "chỉ...thôi" correct
   { sentence:'Hôm nay tôi ___ ở văn phòng ___ , không ra ngoài.',
     question:'"Hôm nay tôi ___ ở văn phòng ___ , không ra ngoài." — "Today I will JUST stay in the office, not go out."',
-    correct:'chỉ ... thôi', options:['chỉ ... thôi','đã ... rồi','vẫn','cũng'],
-    explanation:'"Chỉ...thôi" restricts the action to staying in one place. The second clause confirms it.' },
+    correct:'chỉ ... thôi', options:['chỉ ... thôi','đã ... rồi','vẫn ... rồi','cũng ... thôi'],
+    explanation:'"Chỉ...thôi" = limited to one place/action. "Không ra ngoài" confirms the restriction.' },
 
+  // "vẫn" correct
   { sentence:'Anh ấy ___ chưa về, mặc dù đã 9 giờ tối rồi.',
     question:'"Anh ấy ___ chưa về, mặc dù đã 9 giờ tối rồi." — "He STILL has not come back, even though it is already 9pm."',
     correct:'vẫn', options:['chỉ','vẫn','cũng','sắp'],
-    explanation:'"Vẫn" + a negative state means the situation is still continuing unexpectedly.' },
+    explanation:'"Vẫn" + chưa = still has not. "Mặc dù" (although) signals a persisting situation.' },
 
+  // "chỉ...thôi" correct
   { sentence:'Buổi sáng, chúng tôi ___ ăn phở ___ , không ăn gì khác.',
     question:'"Buổi sáng, chúng tôi ___ ăn phở ___ , không ăn gì khác." — "In the morning we ONLY eat pho, nothing else."',
-    correct:'chỉ ... thôi', options:['chỉ ... thôi','đã ... rồi','vẫn','cũng'],
-    explanation:'"Chỉ...thôi" is correct because the sentence excludes all other food options.' },
+    correct:'chỉ ... thôi', options:['chỉ ... thôi','đã ... rồi','vẫn ... rồi','sắp ... rồi'],
+    explanation:'"Chỉ...thôi" + "không ăn gì khác" = exclusive focus on one food.' },
 
+  // "cũng" correct
   { sentence:'Anh Nam thích xem phim Mĩ. Chị Lan ___ thích xem phim Mĩ.',
     question:'"Anh Nam thích xem phim Mĩ. Chị Lan ___ thích xem phim Mĩ." — "Nam likes American films. Lan ALSO likes them."',
-    correct:'cũng', options:['chỉ','vẫn','cũng','thôi'],
-    explanation:'"Cũng" adds the idea that Lan shares the same preference.' },
+    correct:'cũng', options:['chỉ','vẫn','cũng','đã'],
+    explanation:'"Cũng" = also/too. The same preference is shared by a second person.' },
 ];
 
 const DIRECTIONS_QUESTIONS = [
