@@ -702,15 +702,15 @@ const TIME_WORDS = [
 ];
 // LESSON 12: Prepositions of place (mouse pictures)
 const L12_PLACE_WORDS = [
-  { viet: "trên", english: "On / Above", emoji: "🐭", base: "tren" },
-  { viet: "trong", english: "In / Inside", emoji: "🐭", base: "trong" },
-  { viet: "trước", english: "In front of", emoji: "🐭", base: "truoc" },
-  { viet: "dưới", english: "Under / Below", emoji: "🐭", base: "duoi" },
-  { viet: "ngoài", english: "Outside", emoji: "🐭", base: "ngoai" },
-  { viet: "sau", english: "Behind", emoji: "🐭", base: "sau" },
-  { viet: "bên cạnh", english: "Next to / Beside", emoji: "🐭", base: "ben canh" },
-  { viet: "giữa", english: "Between / In the middle", emoji: "🐭", base: "giua" },
-  { viet: "gần", english: "Near / Close to", emoji: "🐭", base: "gan" }
+  { viet: "trên", english: "On / Above", emoji: "🐭", base: "tren", exVi: "Quyển sách ở trên bàn.", exEn: "The book is on the table." },
+  { viet: "trong", english: "In / Inside", emoji: "🐭", base: "trong", exVi: "Tôi ở trong phòng khách.", exEn: "I am in the living room." },
+  { viet: "trước", english: "In front of", emoji: "🐭", base: "truoc", exVi: "Con mèo ngồi trước nhà.", exEn: "The cat is sitting in front of the house." },
+  { viet: "dưới", english: "Under / Below", emoji: "🐭", base: "duoi", exVi: "Con chó nằm dưới bàn.", exEn: "The dog is lying under the table." },
+  { viet: "ngoài", english: "Outside", emoji: "🐭", base: "ngoai", exVi: "Anh ấy đứng ngoài cửa.", exEn: "He is standing outside the door." },
+  { viet: "sau", english: "Behind", emoji: "🐭", base: "sau", exVi: "Cái xe ở sau nhà.", exEn: "The car is behind the house." },
+  { viet: "bên cạnh", english: "Next to / Beside", emoji: "🐭", base: "ben canh", exVi: "Cái ghế ở bên cạnh bàn.", exEn: "The chair is next to the table." },
+  { viet: "giữa", english: "Between / In the middle", emoji: "🐭", base: "giua", exVi: "Cái bàn ở giữa phòng.", exEn: "The table is in the middle of the room." },
+  { viet: "gần", english: "Near / Close to", emoji: "🐭", base: "gan", exVi: "Nhà tôi gần chợ.", exEn: "My house is near the market." }
 ];
 const WEATHER_WORDS = [
  { en:'sunny', viet:'nắng', base:'nang', toneOptions:['nắng','nang','náng','nẳng']},
@@ -4127,6 +4127,7 @@ ${isEnToViet ? `<div style="font-size:2.5rem;text-align:center;margin-bottom:8px
       h += '</div>';
       if (state.thSelected) {
         if (state.thSelected === q.viet) h += `<div style="text-align:center;color:#5ec97c;font-size:1.1rem;margin-top:12px;font-weight:600;">✓ Perfect tone!</div>`;
+        if (state.thSelected === q.viet && q.exVi) h += `<div style="text-align:center;margin-top:14px;padding:12px;background:#24232a;border-radius:10px;"><div style="font-size:1.3rem;">${esc(q.exVi)}</div><div style="color:#aaa5a0;font-size:0.95rem;margin-top:4px;">${esc(q.exEn)}</div></div>`;
         h += `<button class="big-btn" style="margin-top:16px;" onclick="window.thNext()">${state.thIndex+1>=state.thDeck.length?'See Results →':'Next →'}</button>`;
       }
     }
